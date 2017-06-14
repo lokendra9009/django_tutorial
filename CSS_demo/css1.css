@@ -3,11 +3,16 @@
 /*sdkljg
 sdkgsj*/
 
-h1{
-	color: blue;
 
+
+div{
+	background: blue;
+	border-color: orange;
+	border-width: 4px;
+	border-style: double;
 }
 
-li{
-	color: #b2b04e;
+span{
+	background: grey;
+	
 }
