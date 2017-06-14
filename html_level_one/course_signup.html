@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Course Sign Up </title>
+</head>
+<body>
+	<h1>Course Sign Up Page</h1>
+	<p>Please note that First Name, Last Name Password and Email are required</p>
+	<form action="file:///C:/Users/lokendrasingh_chouha/Desktop/Django/html_level_one/forms.html" method="get">
+		<label for="fname">First Name : </label>
+		<input type="text" id="fname" placeholder="First name" required>
+
+		<label for="lname">Last Name : </label>
+		<input type="text" id="lname" placeholder="Last name" required>
+		<br>
+		<label for="mailid">Email Address : </label>
+		<input type="email" id="mailid" placeholder="name@email.com" required>
+		
+		<label for="pwd">Password : </label>
+		<input type="password" id="pwd" required>
+		
+		
+		<p>Are you over the age of 18 ? </p>
+
+		<label for="ageYes">Yes : </label>
+		<input type="radio" value="Yes" name="ageValidator">
+
+		<label for="ageNo">No : </label>
+		<input type="radio" value="No" name="ageValidator">
+
+		<p>Do you have a Credit Card or Paypal ? </p>
+
+		<select name="" id="paymentMethod">
+			<option value="CC">Credit Card</option>
+			<option value="paypal">Paypal</option>
+		</select>
+
+		<input type="submit" value="Sign Up">
+	</form>
+
+</html>
