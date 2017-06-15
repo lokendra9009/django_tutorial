@@ -1,0 +1,41 @@
+body{
+	background-color: #101f49;
+	align-items: center;
+	
+	
+
+}
+#content{
+	background-color: #101f49;
+	padding-right: 3em;
+	padding-left: 3em;
+	color: #c5cde5;
+	/*font-family: arial;*/
+	text-align: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 25px;
+	border-color: #55d6ba;
+	margin: 0px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#signupbutton{
+	border-radius: 10px;
+	background-color: #e29c0f;
+	color: #1e0c38;
+	height: 50px;
+}
+#signupform{
+	align-content: center;
+	text-align: center;
+	vertical-align: middle;
+	border-style: solid;
+	border: 5px;
+	
+}
+.inpboxes{
+	width: 200px;
+}
+

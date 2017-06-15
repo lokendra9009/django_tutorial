@@ -3,20 +3,46 @@
 <head>
 	<title>Landing Page</title>
 	<link rel="stylesheet" href="master.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
 </head>
 <body>
-	<h1></h1>
-	<h2></h2>
-	<p></p>
-	<p></p>
-	<h1></h1>
+	<div id="content">
+	<h1>Welcome to the Landing Page</h1>
+	<h2>We're a start-up that does something</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloribus ratione fugiat, itaque fuga minus tenetur, quae officia doloremque a expedita maxime magnam. Qui, ducimus distinctio recusandae deserunt, explicabo cum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minima quasi, itaque, culpa voluptas d
+	olore quam accusamus ut saepe, adipisci nesciunt! Veniam, eum molestias facilis odio commodi. Nesciunt, cum esse.</p>
+	<h2>Sign up for our upcoming launch!</h2>
 	<form action="thank-you.html" method="get">
-		<label for=""></label>
-		<input type="text" id="fname">
-		<input type="text" id="lname">
-		<input type="emai" id="email">
-		<input type="submit" id="signup" value="Sign Up">
+		<table id="signupform" align="center">
+			<tr>
+				<td>
+					<label for="fname">First Name</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input required type="text" id="fname" class="inpboxes">
+				</td>
+			</tr>
+			<tr>
+				<td><label for="lname">Last Name</label></td>
+			</tr>
+			<tr>
+				<td><input required type="text" id="lname" class="inpboxes"></td>
+			</tr>
+			<tr>
+				<td><label for="email">Email</label></td>
+			</tr>
+			<tr>
+				<td><input required type="email" id="email" class="inpboxes"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Sign me up!" id="signupbutton"></td>
+			</tr>
+		</table>
 	</form>
+	</div>
 
 </body>
 </html>
